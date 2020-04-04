@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.30)  30 MAR 2020 19:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.30)  4 APR 2020 15:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -168,7 +168,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ! You can't use `\spacefactor' in math mode.
 \@->\spacefactor 
                  \@m {}
-l.73 $\LaTeX
+l.63 $\LaTeX
             $ & Started using  $\LaTeX$ during my GCSEs, this includes writi...
 
 ? 
@@ -176,7 +176,7 @@ Missing character: There is no è in font cmex10!
 ! You can't use `\spacefactor' in math mode.
 \@->\spacefactor 
                  \@m {}
-l.73 $\LaTeX$ & Started using  $\LaTeX
+l.63 $\LaTeX$ & Started using  $\LaTeX
                                       $ during my GCSEs, this includes writi...
 
 ? 
@@ -184,30 +184,30 @@ Missing character: There is no è in font cmex10!
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 97.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 93.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 97.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 93.
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
@@ -215,7 +215,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--101
 Here is how much of TeX's memory you used:
  1995 strings out of 493014
  26130 string characters out of 6133351
- 100195 words of memory out of 5000000
+ 99195 words of memory out of 5000000
  5564 multiletter control sequences out of 15000+600000
  8202 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -229,7 +229,7 @@ mr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
 pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb>
-Output written on cv.pdf (2 pages, 103078 bytes).
+Output written on cv.pdf (2 pages, 102183 bytes).
 PDF statistics:
  43 PDF objects out of 1000 (max. 8388607)
  30 compressed objects within 1 object stream
