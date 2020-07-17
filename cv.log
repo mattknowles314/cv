@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.30)  11 JUL 2020 22:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.30)  17 JUL 2020 16:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -117,35 +117,25 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 22.
+(Font)              <7> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 22.
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--41
-
- []
-
+(Font)              <5> on input line 23.
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.42 \hline
+l.32 \hline
            
 ? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--52
-
- []
-
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.53 \hline
+l.43 \hline
            
 ? 
 ! You can't use `\spacefactor' in math mode.
 \@->\spacefactor 
                  \@m {}
-l.60 $\LaTeX
+l.50 $\LaTeX
             $ & Started using  $\LaTeX$ during my GCSEs, this includes writi...
 
 ? 
@@ -153,80 +143,55 @@ Missing character: There is no è in font cmex10!
 ! You can't use `\spacefactor' in math mode.
 \@->\spacefactor 
                  \@m {}
-l.60 $\LaTeX$ & Started using  $\LaTeX
+l.50 $\LaTeX$ & Started using  $\LaTeX
                                       $ during my GCSEs, this includes writi...
 
 ? 
 Missing character: There is no è in font cmex10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--65
-
- []
-
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.66 \hline
+l.56 \hline
            
 ? 
-! Missing { inserted.
-<inserted text> 
-                {
-l.77 \end{tabular}
-                  \\
-? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--78
-
- []
-
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+! Missing { inserted.
+<inserted text> 
+                {
+l.67 \end{tabular}
+                  \\
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.69 \hline
+           
+? 
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
 l.79 \hline
            
 ? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--88
-
- []
-
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.89 \hline
+l.86 \hline
            
 ? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--95
-
- []
-
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.96 \hline
+l.97 \hline
            
-? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--106
-
- []
-
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.107 \hline
-            
 ? 
 [2] (./cv.aux) ) 
 Here is how much of TeX's memory you used:
  801 strings out of 493014
  10842 string characters out of 6133351
- 77486 words of memory out of 5000000
+ 75486 words of memory out of 5000000
  4396 multiletter control sequences out of 15000+600000
  8202 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -239,7 +204,7 @@ m/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
 mr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
 pfb>
-Output written on cv.pdf (2 pages, 97260 bytes).
+Output written on cv.pdf (2 pages, 97205 bytes).
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  27 compressed objects within 1 object stream
