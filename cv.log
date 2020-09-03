@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.30)  17 JUL 2020 16:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.30)  28 AUG 2020 11:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -116,26 +116,52 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 13.
+
+! LaTeX Error: \begin{document} ended by \end{centering}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \end{centering}
+                    
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.26 \end{centering}
+                    
+? 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 23.
+(Font)              <7> on input line 28.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 23.
+(Font)              <5> on input line 28.
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--36
+
+ []
+
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.32 \hline
+l.37 \hline
            
 ? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--46
+
+ []
+
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.43 \hline
+l.47 \hline
            
 ? 
 ! You can't use `\spacefactor' in math mode.
 \@->\spacefactor 
                  \@m {}
-l.50 $\LaTeX
+l.54 $\LaTeX
             $ & Started using  $\LaTeX$ during my GCSEs, this includes writi...
 
 ? 
@@ -143,44 +169,69 @@ Missing character: There is no è in font cmex10!
 ! You can't use `\spacefactor' in math mode.
 \@->\spacefactor 
                  \@m {}
-l.50 $\LaTeX$ & Started using  $\LaTeX
+l.54 $\LaTeX$ & Started using  $\LaTeX
                                       $ during my GCSEs, this includes writi...
 
 ? 
 Missing character: There is no è in font cmex10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--58
+
+ []
+
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.56 \hline
+l.59 \hline
            
 ? 
-[1
-
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 ! Missing { inserted.
 <inserted text> 
                 {
-l.67 \end{tabular}
+l.68 \end{tabular}
                   \\
 ? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--69
+
+ []
+
+[1
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.69 \hline
+l.70 \hline
            
 ? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--79
+
+ []
+
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.79 \hline
+l.80 \hline
            
 ? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--86
+
+ []
+
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.86 \hline
+l.87 \hline
            
 ? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--96
+
+ []
+
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
@@ -189,13 +240,13 @@ l.97 \hline
 ? 
 [2] (./cv.aux) ) 
 Here is how much of TeX's memory you used:
- 801 strings out of 493014
- 10842 string characters out of 6133351
- 75486 words of memory out of 5000000
- 4396 multiletter control sequences out of 15000+600000
+ 802 strings out of 493014
+ 10854 string characters out of 6133351
+ 76486 words of memory out of 5000000
+ 4397 multiletter control sequences out of 15000+600000
  8202 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 24i,13n,32p,251b,180s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 24i,13n,32p,243b,180s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/c
@@ -204,7 +255,7 @@ m/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
 mr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
 pfb>
-Output written on cv.pdf (2 pages, 97205 bytes).
+Output written on cv.pdf (2 pages, 94177 bytes).
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  27 compressed objects within 1 object stream
