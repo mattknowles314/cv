@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.30)  4 SEP 2020 17:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.30)  5 SEP 2020 13:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -148,20 +148,20 @@ l.39 \hline
            
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--48
+Underfull \hbox (badness 10000) in paragraph at lines 42--49
 
  []
 
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.49 \hline
+l.50 \hline
            
 ? 
 ! You can't use `\spacefactor' in math mode.
 \@->\spacefactor 
                  \@m {}
-l.56 $\LaTeX
+l.57 $\LaTeX
             $ & Started using  $\LaTeX$ during my GCSEs, this includes writi...
 
 ? 
@@ -169,24 +169,24 @@ Missing character: There is no è in font cmex10!
 ! You can't use `\spacefactor' in math mode.
 \@->\spacefactor 
                  \@m {}
-l.56 $\LaTeX$ & Started using  $\LaTeX
+l.57 $\LaTeX$ & Started using  $\LaTeX
                                       $ during my GCSEs, this includes writi...
 
 ? 
 Missing character: There is no è in font cmex10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--59
+Underfull \hbox (badness 10000) in paragraph at lines 53--60
 
  []
 
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.60 \hline
+l.61 \hline
            
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--68
+Underfull \hbox (badness 10000) in paragraph at lines 64--70
 
  []
 
@@ -196,40 +196,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--68
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.69 \hline
+l.71 \hline
            
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--78
+Underfull \hbox (badness 10000) in paragraph at lines 74--80
 
  []
 
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.79 \hline
+l.81 \hline
            
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--85
+Underfull \hbox (badness 10000) in paragraph at lines 84--87
 
  []
 
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.86 \hline
+l.88 \hline
            
 ? 
 [2] (./cv.aux) ) 
 Here is how much of TeX's memory you used:
  802 strings out of 493014
  10854 string characters out of 6133351
- 75486 words of memory out of 5000000
+ 76486 words of memory out of 5000000
  4397 multiletter control sequences out of 15000+600000
  8202 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 24i,13n,32p,243b,180s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 24i,13n,32p,272b,180s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/c
@@ -238,7 +238,7 @@ m/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
 mr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
 pfb>
-Output written on cv.pdf (2 pages, 93834 bytes).
+Output written on cv.pdf (2 pages, 95097 bytes).
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  27 compressed objects within 1 object stream
