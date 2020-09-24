@@ -1,96 +1,176 @@
-\documentclass[10pt]{article}
-\usepackage[margin=1.5cm]{geometry}
-\title{\bfseries\Huge Matthew  Knowles}
-\author{mattknowles314@gmail.com \\ mk1320@york.ac.uk}
-\date{}
-\usepackage{array}
-\newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
-\newcolumntype{R}{p{0.8\textwidth}}
-\newcommand\VRule{\vrule width 0.5pt}
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
 
 
 \begin{document}
-\maketitle
 
-\begin{centering}
+
+
+\begin{center}
+    \textbf{\Huge \scshape Matthew Knowles} \\ \vspace{5pt}
+    \small 07794235668 $|$ \href{mailto:x@x.com}{\underline{mk1320@york.ac.uk}} $|$ 
+    \href{https://www.linkedin.com/in/matthew-knowles-51a717145/}{\underline{linkedin.com/in/matthew-knowles-51a717145/}} $|$
+    \href{https://github.com/...}{\underline{github.com/mattknowles314}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of York}{York, UK}
+      {MMath Mathematics, Grade: First (Expected)}{October. 2018 -- June 2022}
+    \resumeSubheading
+      {Droitwich Spa High School}{Worcester, UK}
+      {A-Levels in Maths, Further Maths and Physics, Grades: ABB respectively}{September. 2014 -- June 2018}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+    {Undergraduate Research Intern (Bioinformatics)}{July 2020 -- September 2020}
+      {Department of Biology, University of York}{York, UK}
+      \resumeItemListStart
+        \resumeItem{Developed a pipeline in Python to using the Burrows-Wheeler-Aligner, SAMTools to collect, sequence, align and call the peaks of ChIP-Seq data}
+        \resumeItem{Further developed an R pipeline to apply machine learning libraries to the acquired data}
+        \resumeItem{Identified transcription factors for further study into breast cancer treatment}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Mathematics Student Ambassador}{November 2018 -- March 2020}
+      {Department of Mathematics, University of York}{York, UK}
+      \resumeItemListStart
+        \resumeItem{Showing prospective students and parents around the university}
+        \resumeItem{Answering questions about life and studying at university}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Store Assistant}{October 2017 -- December 2018}
+      {WHSmth}{Worcester, UK}
+      \resumeItemListStart
+        \resumeItem{Helping customers around the store to find the things they need}
+        \resumeItem{Store maintenance, cleaning}
+      \resumeItemListEnd
     
-    \textbf{Mobile/Cell}: (+44) 07794235668\\
-    \textbf{LinkedIn}: Linkedin.com/in/matthew-knowles-51a717145 \\
-    \textbf{GitHub}: github.com/mattknowles314 \\
-    \textbf{Website}: www.mattknowles314.github.io \\
+    \resumeSubheading
+    {Reaserch Intern (Particle Physics)}{July 2017 -- August 2017}
+      {School of Physics and Astronomy, University of Birmingham}{Birmingham, UK}
+      \resumeItemListStart
+        \resumeItem{Using Python to visualise HiSPARC Cosmic ray data}
+        \resumeItem{Applying statistical methods to the data to locate stars which are potential sources of cosmic radiation}
+        \resumeItem{Presented results at the $6^{th}$ annual HiSPARC conference at the University of Bath}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
 
-\end{centering}
 
-\vspace{0.1in}
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Stock Price Prediction using Neural Networks} $|$ \emph{Numpy, Yahoo Finance API, SciKitLearn}}{September 2020}
+          \resumeItemListStart
+            \resumeItem{Implemented a simple prorgram to fetch stock price data using Yahoo Finance}
+            \resumeItem{Time-series of price on close plotted using Matplotlib}
+            \resumeItem{Used a recurrant nerual network to predict future stock prices}
+            \resumeItem{Used Celery and Redis for asynchronous tasks}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
 
-\par{ {\bf Who am I?}A highly motivated and disciplined Mathematics undergraduate, with a sound academic background and experience in research. Looking to apply the skills and knowledge I have acquired to roles in finance, research, or data science.}
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: Python, C++, R, Java, SQL, HTML/CSS} \\
+     \textbf{Communicative Languages}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
+     \textbf{Developer Tools}{: Git, Vim,  VS Code, Rstudio Server, Rstudio Desktop} \\
+     \textbf{Libraries}{: pandas, NumPy, Matplotlib} \\
+    \textbf{Communicative Languages}{: English, Norwegian, Russian, German, Mandarin} \\
+    }}
+ \end{itemize}
 
-\end{centering}
-\section*{Education}
-\begin{tabular}{L!{\VRule}R}
-2018--Present&{\bf MMath Mathematics, University of York; Grade: 1st (Expected 2022)}\\
-          & \par{YorkAward: Pass, First year average: 68\%, Second year average: 72\% }\\
-2016--2018& {\bf{A-Levels, Droitwich Spa High School}} \\
-          & \par{Mathematics: A, Furhter Mathematics: B, Physics: B, EPQ: A*} \\
-\end{tabular}\\
 
-\hline
-
-\section*{Work Experience}
-\begin{tabular}{L!{\VRule}R}
-20/07/20--16/9/20 \\ & {\bf{Research Intern, Department of Biology, University of York}} \newline Wrote a pipeline in Python and R to apply machine learning to ChIP-seq data from NCBI 
-\\
-12/10/18--1/10/19 \\ & {\bf{Student Guide (Mathematics), University of York}} \newline Showing prospective students around the department and university, answering questions about life at uni etc \\
-29/10/17--03/09/2018 \\ & {\bf{Customer Service Assistant, WHSmith}} \newline General store duties: Manning the tills, helping customers find things, book orders and returns, maintenance and cleaning. \\
-24/07/17--18/08/17 \\ & {\bf{Nuffield Research Placement, University of Birmingham School of Physics and Astronomy}} \newline Analysing HiSPARC data by applying statistical and geometric techniques to locate potential sources of cosmic radiation\\
-\end{tabular}\\
-
-\hline
-
-\section*{Programming and IT}
-\begin{tabular}{L!{\VRule}R}
-Python & Several years experience in Python, mostly for data analysis and scientific computing.\\ 
-R & I have industry and academic experience in R. I learnt to use R as part of my degree and have used it extensively in my role as a research intern in summer 2020. \\
-C++ & I have been using C++ while at university \\
-$\LaTeX$ & Started using  $\LaTeX$ during my GCSEs, this includes writing research papers and other documents such as research proposals, presentations (beamer) and this CV. \\
-Miscellaneous & I am profficient in using tools such as Git, and Vim and UNIX based Operating Systems.
-\end{tabular}\\
-
-\hline
-
-\section*{Communicative Languages}
-\begin{tabular}{L!{\VRule}R}
-English & {Native Proficiency}\\
-Norwegian Bokm\aa l& Upper Intermediate Proficiency \\
-German & Lower Intermediate Proficiency \\
-Chinese (Mandarin) & Elementary Proficiency 
-\end{tabular}\\
-
-\hline
-
-\section*{Volenteering}
-\begin{tabular}{L!{\VRule}R}
-    17/9/20--Present \\ &{STYC: Halifax College, University of York} \\
-    7/6/20--Present \\ &{Treasurer: University of York Men's Cricket Club} \\
-    27/5/20--Present \\ &{Secretary: University of York Taekwondo Club} \\
-    14/4/19--31/5/20 \\ &{ MathSTYC: Department of Mathematics, University of York} \\
-    15/11/16--12/05/17  & {Maths Tutor at Droitwich Spa High School}
-\end{tabular}\\
-
-\hline
-
-\section*{Conferences}
-\begin{tabular}{L!{\VRule}R}
-02/07/18 & Presented at the $6^{th}$ Annual HiSPARC Conference, University of Bath. Research was presented from my Nuffield Research Placement
-\end{tabular}\\
-
-\hline
-
-\section*{References}
-\begin{minipage}[ht]{0.48\textwidth}
-Dr Benoit Vicedo \\
-Department of Mathematics, University of York \\
-bv557@york.ac.uk
-\end{minipage}
-
+%-------------------------------------------
 \end{document}
